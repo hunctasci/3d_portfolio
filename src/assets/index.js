@@ -21,13 +21,13 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import vaque20 from "./company/vaque20.png";
+import bigo from "./company/bigo.png";
+import genna from "./company/genna.png";
+import mediaport from "./company/mediaport.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import vaque20site from "./vaque20site.png";
+import givingly from "./givingly.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -52,11 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
+  vaque20,
+  bigo,
+  genna,
+  mediaport,
+  vaque20site,
+  givingly,
   tripguide,
 };

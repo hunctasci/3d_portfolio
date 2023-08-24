@@ -15,12 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  vaque20,
+  genna,
+  mediaport,
+  bigo,
+  vaque20site,
+  givingly,
   tripguide,
   threejs,
 } from "../assets";
@@ -45,14 +45,14 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
   {
     title: "Content Creator",
     icon: creator,
@@ -88,10 +88,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -104,67 +104,66 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Marketing Analyst",
+    company_name: "GENNA ISTANBUL",
+    icon: genna,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2014 - Feb 2015",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed media plans for clients in various industries, optimizing campaign performance",
+      "Conducted research on media channels and ad formats, analysed campaign performance, and presented results to clients.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Media Planning Specialist",
+    company_name: "Mediaport Advertising Agency",
+    icon: mediaport,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2016 – Jan 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop and execute media plans for various clients across different industries and markets.",
+      "Analyze media performance and optimize campaigns based on data and insights.",
+      "Collaborate with internal and external stakeholders to ensure alignment of media objectives and strategies.      ",
+      "Research and evaluate new media opportunities and trends.",
+      "Manage media budgets and timelines",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Business Development Executive",
+    company_name: "BIGO",
+    icon: bigo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2018 – Dec 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented analytical influencer marketing data scraped from various social media. Our model's top influencers performed 25% better in terms of ACU in their segment.",
+      "Conducted guerilla marketing with a bottom-up approach. Gained the first round of content producers and viewers in one go while sustaining it with organic growth. Became #3 app in Turkey in terms of in-app purchase by 2019.",
+      "Build a customer funnel to gain insight on user experience and by focusing on the most critical problems increased the positive comments and feedbacks by 80%.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Founder",
+    company_name: "VAQUE20",
+    icon: vaque20,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2020 – Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Launched an e-commerce website from scratch, optimized the user experience and increased conversion rates.",
+      "Executed marketing campaigns through social media and email, increasing website traffic by 40% and sales by 15% in three months.",
+      "Maintained relationships with vendors to ensure high-quality products and cost savings of 10% on average.",
+      "Handled order fulfillment, shipping, and customer service to maintain high customer satisfaction of 95% according to feedback surveys.",
+      "Created compelling ecommerce content, including product descriptions, blog posts,and buying guides, to drive traffic and increase sales by 20% in one year.",
     ],
   },
 ];
@@ -198,16 +197,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VAQUE20",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "WordPress-powered online shop featuring a diverse range of products, providing an immersive shopping experience with seamless navigation, secure transactions, and captivating design.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "green-text-gradient",
+      },
+    ],
+    image: vaque20site,
+    source_code_link: "https://vaque20.com/",
+  },
+  {
+    name: "Givingly",
+    description:
+      "Dynamic crowdfunding platform that empowers individuals and organizations to showcase their projects and ideas, while enabling backers to contribute and support initiatives they believe in, fostering innovation and community engagement.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +231,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: givingly,
+    source_code_link:
+      "https://github.com/202303-PRM-TR-FEW/capstone-template-team-3",
   },
 ];
 
