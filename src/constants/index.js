@@ -51,10 +51,10 @@ const services = [
   //   title: "React Native Developer",
   //   icon: mobile,
   // },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
   {
     title: "Content Creator",
     icon: creator,
@@ -90,10 +90,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -199,45 +199,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "VAQUE20",
-    description:
-      "WordPress-powered online shop featuring a diverse range of products, providing an immersive shopping experience with seamless navigation, secure transactions, and captivating design.",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "woocommerce",
-        color: "green-text-gradient",
-      },
-    ],
-    image: vaque20site,
-    source_code_link: "https://vaque20.com/",
-  },
-  {
-    name: "Givingly",
-    description:
-      "Dynamic crowdfunding platform that empowers individuals and organizations to showcase their projects and ideas, while enabling backers to contribute and support initiatives they believe in, fostering innovation and community engagement.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: givingly,
-    source_code_link:
-      "https://github.com/202303-PRM-TR-FEW/capstone-template-team-3",
-  },
-  {
     name: "E-Commerce Admin Dashboard",
     description:
       "Dynamic admin dashboard for e-commerce app made with Next.js 13, TypeScript, Tailwind and Prisma. ",
@@ -286,6 +247,45 @@ const projects = [
     ],
     image: ecommerceStore,
     source_code_link: "https://github.com/hunctasci/ecommerce-store",
+  },
+  {
+    name: "VAQUE20",
+    description:
+      "WordPress-powered online shop featuring a diverse range of products, providing an immersive shopping experience with seamless navigation, secure transactions, and captivating design.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "green-text-gradient",
+      },
+    ],
+    image: vaque20site,
+    source_code_link: "https://vaque20.com/",
+  },
+  {
+    name: "Givingly",
+    description:
+      "Dynamic crowdfunding platform that empowers individuals and organizations to showcase their projects and ideas, while enabling backers to contribute and support initiatives they believe in, fostering innovation and community engagement.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: givingly,
+    source_code_link:
+      "https://github.com/202303-PRM-TR-FEW/capstone-template-team-3",
   },
 ];
 

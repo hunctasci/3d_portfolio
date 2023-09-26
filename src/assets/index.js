@@ -29,6 +29,8 @@ import mediaport from "./company/mediaport.png";
 import vaque20site from "./vaque20site.png";
 import givingly from "./givingly.png";
 import tripguide from "./tripguide.png";
+import ecommerceAdminDashboard from "./ecommerceAdminDashboard.png";
+import ecommerceStore from "./ecommerceStore.png";
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   vaque20site,
   givingly,
   tripguide,
+  ecommerceAdminDashboard,
+  ecommerceStore,
 };
