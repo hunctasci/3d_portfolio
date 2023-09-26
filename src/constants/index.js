@@ -23,6 +23,8 @@ import {
   givingly,
   tripguide,
   threejs,
+  ecommerceAdminDashboard,
+  ecommerceStore,
 } from "../assets";
 
 export const navLinks = [
@@ -234,6 +236,56 @@ const projects = [
     image: givingly,
     source_code_link:
       "https://github.com/202303-PRM-TR-FEW/capstone-template-team-3",
+  },
+  {
+    name: "E-Commerce Admin Dashboard",
+    description:
+      "Dynamic admin dashboard for e-commerce app made with Next.js 13, TypeScript, Tailwind and Prisma. ",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerceAdminDashboard,
+    source_code_link: "https://github.com/hunctasci/e-commerce-admin",
+  },
+  {
+    name: "E-Commerce Store",
+    description:
+      "Dynamic store for e-commerce app made with Next.js 13, TypeScript, Tailwind and Prisma. ",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerceStore,
+    source_code_link: "https://github.com/hunctasci/ecommerce-store",
   },
 ];
 
