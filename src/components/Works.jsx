@@ -77,12 +77,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text=[17px] max-w-3xl leading-[30px]"
         >
-          Here, you'll find projects that spotlight my skills across various
-          fields. From frontend development to crafting user interfaces, each
-          project showcases my commitment to impactful digital experiences.
-          Explore these projects to see my capabilities and diverse work. They
-          illustrate my passion for innovation and excellence in creating
-          engaging solutions.
+          Here, you'll find projects that highlight my skills across the full
+          spectrum of development. From frontend design to backend architecture,
+          each project demonstrates my dedication to building comprehensive
+          digital solutions. Explore these projects to see my capabilities in
+          creating seamless, impactful experiences. They illustrate my passion
+          for innovation and excellence in delivering end-to-end solutions.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
@@ -94,4 +94,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

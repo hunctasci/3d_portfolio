@@ -33,6 +33,8 @@ import givingly from "./givingly.png";
 import tripguide from "./tripguide.png";
 import ecommerceAdminDashboard from "./ecommerceAdminDashboard.png";
 import ecommerceStore from "./ecommerceStore.png";
+import aora from "./aora.png";
+import devcamper from "./devcamper.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   ecommerceStore,
   freelancer,
   hogarth,
+  aora,
+  devcamper,
 };

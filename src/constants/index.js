@@ -27,6 +27,8 @@ import {
   threejs,
   ecommerceAdminDashboard,
   ecommerceStore,
+  aora,
+  devcamper,
 } from "../assets";
 
 export const navLinks = [
@@ -36,7 +38,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -46,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -292,6 +298,53 @@ const projects = [
     image: givingly,
     source_code_link:
       "https://github.com/202303-PRM-TR-FEW/capstone-template-team-3",
+  },
+  {
+    name: "Aora App",
+    description:
+      "Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "native-wind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "animatable",
+        color: "red-text-gradient",
+      },
+    ],
+    image: aora,
+    source_code_link: "https://github.com/hunctasci/aora-app",
+  },
+
+  {
+    name: "DevCamper API",
+    description:
+      "The DevCamper API is a comprehensive RESTful API designed for an online learning platform. It supports the management of courses, users, and reviews, enabling functionalities such as course creation, enrollment, and feedback. With features like user authentication, course categorization, and detailed search capabilities, it enhances the learning experience for developers and educators. This API serves as a vital backend resource for applications focused on delivering high-quality educational content.",
+    tags: [
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jsonwebtoken",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devcamper,
+    source_code_link: "https://github.com/hunctasci/devcamper_api",
   },
 ];
 
