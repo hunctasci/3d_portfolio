@@ -25,6 +25,8 @@ import vaque20 from "./company/vaque20.png";
 import bigo from "./company/bigo.png";
 import genna from "./company/genna.png";
 import mediaport from "./company/mediaport.png";
+import hogarth from "./company/hogarth.png";
+import freelancer from "./company/freelancer.png";
 
 import vaque20site from "./vaque20site.png";
 import givingly from "./givingly.png";
@@ -63,4 +65,6 @@ export {
   tripguide,
   ecommerceAdminDashboard,
   ecommerceStore,
+  freelancer,
+  hogarth,
 };

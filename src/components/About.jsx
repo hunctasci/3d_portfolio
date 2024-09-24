@@ -33,28 +33,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hey there, I'm Hunc, a frontend developer driven by a passion for
-        technology and design. With a background in marketing and media, I've
-        discovered my true calling in shaping digital experiences. My journey
-        accelerated through the Recoded Front End Development Bootcamp, where I
-        delved deep into HTML, CSS, JavaScript, React, and Next.js. A standout
-        moment was the Capstone Project—an immersive collaboration to build a
-        crowdfunding app. This experience merged technical prowess with
-        real-world agility. Drawing from my background managing online apparel
-        business websites and social media, I've honed an intuition for user
-        interfaces and engagement. Each project, be it solo or collaborative,
-        fuels my growth and curiosity. As a proud member of the exclusive
-        Recoded community, I've earned a Front End Web Developer certificate
-        from Flatiron School, New York. A communicator at heart, I value
-        collaboration and seamless teamwork. Let's together shape the digital
-        world.
+        Experienced Software Developer skilled in building high-performance web
+        and mobile applications. Proficient in JavaScript (ES6+), TypeScript,
+        Next.js, React/React Native, and creating modular, responsive UIs with
+        Tailwind, CSS, and HTML. Strong in state management using Zustand and
+        Redux. Backend expertise in developing secure RESTful APIs with Node.js
+        and Express.js. Skilled in Docker for containerization and deploying
+        scalable, efficient CI/CD pipelines.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
